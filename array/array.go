@@ -18,6 +18,9 @@ func Declaration() {
 	fmt.Printf("stringArray: %T -- %v \n", boolArray, boolArray)
 
 	fmt.Printf("boolArray: %T -- %v \n", boolArray, boolArray)
+	
+	// to print each element quoted.
+	fmt.Printf("%q\n", intArray)
 }
 
 func Iterator() {
