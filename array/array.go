@@ -21,9 +21,9 @@ func Declaration() {
 }
 
 func Iterator() {
-	fmt.Println("Array Iterator")
+	fmt.Println("\nArray Iterator")
 
-	fmt.Println("\nfor")
+	fmt.Println("for")
 	for i := 0; i < len(intArray); i++ {
 		fmt.Println("i:", i, "val:", intArray[i])
 	}
@@ -32,4 +32,12 @@ func Iterator() {
 	for i, v := range intArray {
 		fmt.Println("i:", i, "val:", v)
 	}
+}
+
+func CreateArray() {
+	fmt.Println("\nArray Create a new one")
+
+	fmt.Println("intArray[0:2]", intArray[0:2])
+	fmt.Println("intArray[1:3]", intArray[1:3])
+	fmt.Println("intArray[2:]", intArray[2:])
 }

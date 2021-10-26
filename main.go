@@ -11,6 +11,7 @@ func main() {
 	fmt.Println("==============================ARRAYS==============================")
 	array.Declaration()
 	array.Iterator()
+	array.CreateArray()
 
 	fmt.Println("==============================SLIDES==============================")
 	slide.Declaration()
