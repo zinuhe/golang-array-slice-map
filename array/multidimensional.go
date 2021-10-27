@@ -2,6 +2,11 @@ package array
 
 import "fmt"
 
+
+func DeclarationMulti() {
+    fmt.Println("Simple Multi Array Declaration")
+}
+
 /*
 func main() {
 	var a [2][3]string
