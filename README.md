@@ -1,2 +1,2 @@
-# golang-array-slide-map
+# golang-array-slice-map
 Examples
