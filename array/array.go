@@ -4,6 +4,27 @@ import (
 	"fmt"
 )
 
+type Product struct {
+	ID          int
+	Name        string
+	Description string
+	Price       float32
+} 
+var prodyctList = []*Product {
+	&Product {
+           ID          1,
+	   Name        "Name1",
+	   Description "Description1",
+	   Price       100.50,
+	},
+	&Product {
+           ID          2,
+	   Name        "Name2",
+	   Description "Description2",
+	   Price       200.50,
+	},
+}
+
 var intArray = [4]int{1, 2, 3, 4}
 var stringArray = [4]string{"one", "two", "three", "four"}
 
